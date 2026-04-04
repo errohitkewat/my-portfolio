@@ -5,17 +5,17 @@ const contactLinks = [
   {
     label: "Email",
     value: "rohitkewat.er@gmail.com",
-    href: "rohitkewat.er@gmail.com",
+    href: "mailto:rohitkewat.er@gmail.com",
   },
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/yourusername",
-    href: "https://linkedin.com/in/yourusername",
+    value: "linkedin.com/in/rohit-kewat",
+    href: "https://www.linkedin.com/in/rohit-kewat-90b276347/",
   },
   {
     label: "GitHub",
-    value: "github.com/yourusername",
-    href: "https://github.com/yourusername",
+    value: "github.com/errohitkewat",
+    href: "https://github.com/errohitkewat",
   },
 ];
 
@@ -46,10 +46,7 @@ function Contact() {
                   Contact
                 </p>
 
-                <h2
-                  style={{ fontFamily: "Gilroy-Medium" }}
-                  className="mt-4 text-3xl font-extrabold leading-tight text-[#111827] md:text-4xl"
-                >
+                <h2 className="mt-4 font-gilroy-medium text-3xl font-extrabold leading-tight text-[#111827] md:text-4xl">
                   Let’s build something
                   <span className="block text-black/40">clean and modern</span>
                 </h2>
@@ -70,7 +67,7 @@ function Contact() {
                 </div>
 
                 <a
-                  href="rohitkewat.er@gmail.com"
+                  href="mailto:rohitkewat.er@gmail.com"
                   className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#111827] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(17,24,39,0.14)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#4f46e5]"
                 >
                   Start a Project
@@ -114,7 +111,7 @@ function Contact() {
 
               <div className="mt-5 grid gap-3 sm:grid-cols-3">
                 <a
-                  href="mailto:yourmail@gmail.com"
+                  href="mailto:rohitkewat.er@gmail.com"
                   className="rounded-[22px] border border-black/6 bg-white px-4 py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-sm"
                 >
                   <div className="mb-3 inline-flex rounded-xl bg-[#eef2ff] p-2.5 text-lg text-[#4f46e5]">
@@ -127,7 +124,7 @@ function Contact() {
                 </a>
 
                 <a
-                  href="rohitkewat.er@gmail.com"
+                  href="https://github.com/errohitkewat"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-[22px] border border-black/6 bg-white px-4 py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-sm"
@@ -142,7 +139,7 @@ function Contact() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/rohit-kewat-90b276347/"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-[22px] border border-black/6 bg-white px-4 py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-sm"
@@ -167,7 +164,7 @@ function Contact() {
                   </div>
 
                   <a
-                    href="rohitkewat.er@gmail.com"
+                    href="mailto:rohitkewat.er@gmail.com"
                     className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#111827] transition-all duration-300 hover:-translate-y-1"
                   >
                     Send Message

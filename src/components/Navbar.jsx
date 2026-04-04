@@ -31,7 +31,7 @@ function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between  py-4 px-5 lg:px-0">
         <a href="#home" className="group flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-3xl bg-[#111827] text-sm font-bold text-white shadow-[0_10px_30px_rgba(17,24,39,0.18)] transition-transform duration-300 group-hover:scale-105">
+          <div className="flex h-10 w-10 font-gilroy-medium items-center justify-center rounded-3xl bg-[#111827] text-md font-bold text-white shadow-[0_10px_30px_rgba(17,24,39,0.18)] transition-transform duration-300 group-hover:scale-105">
             R
           </div>
           <div>

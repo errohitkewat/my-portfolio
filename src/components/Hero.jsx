@@ -31,7 +31,7 @@ function Hero() {
             initial={{ opacity: 0, y: 26 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.05 }}
-            className="max-w-4xl text-5xl font-extrabold font-gilroyMedium tracking-tight text-[#111827] sm:text-6xl lg:text-7xl"
+            className="max-w-4xl  text-5xl font-gilroy-medium font-extrabold tracking-tight text-[#111827] sm:text-6xl lg:text-7xl"
           >
             I Create
             <span className="block">Modern Websites</span>
@@ -44,7 +44,7 @@ function Hero() {
             initial={{ opacity: 0, y: 26 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.12 }}
-            className="mt-6 max-w-2xl text-base leading-7 text-black/60 md:text-lg"
+            className="mt-6 max-w-2xl  text-base leading-7 text-black/60 md:text-lg"
           >
             I design and develop portfolio websites, business websites, and
             landing pages with clean layout, smooth interaction, and a strong
@@ -115,10 +115,7 @@ function Hero() {
                   Portfolio Preview
                 </p>
 
-                <h3
-                  style={{ fontFamily: "Gilroy-Medium" }}
-                  className="mt-4 text-2xl font-extrabold leading-tight text-[#111827]"
-                >
+                <h3 className="mt-4 font-gilroy-medium text-2xl font-extrabold leading-tight text-[#111827]">
                   Clean design.
                   <br />
                   Strong first impression.

@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="overflow-x-hidden bg-[#f6f7fb] text-[#111827]">
+    <div className="overflow-x-hidden font-gilroy-regular bg-[#f6f7fb] text-[#111827]">
       <Navbar />
       <Hero />
       <About />

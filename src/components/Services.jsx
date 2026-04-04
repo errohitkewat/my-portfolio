@@ -67,10 +67,7 @@ function Services() {
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#4f46e5]">
               Services
             </p>
-            <h2
-              style={{ fontFamily: "Gilroy-Medium" }}
-              className="mt-4 max-w-4xl text-3xl font-extrabold leading-tight text-[#111827] md:text-5xl"
-            >
+            <h2 className="mt-4 max-w-4xl font-gilroy-medium text-3xl font-extrabold leading-tight text-[#111827] md:text-5xl">
               Modern website solutions
               <span className="block">crafted with clean design thinking</span>
             </h2>
@@ -90,7 +87,7 @@ function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.55, delay: index * 0.08 }}
-              className={`group relative overflow-hidden rounded-[36px] border border-black/6 bg-gradient-to-br ${service.accent} p-7 shadow-[0_22px_60px_rgba(15,23,42,0.06)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_30px_80px_rgba(15,23,42,0.10)] md:p-8 ${service.span}`}
+              className={`group relative  overflow-hidden rounded-[36px] border border-black/6 bg-gradient-to-br ${service.accent} p-7 shadow-[0_22px_60px_rgba(15,23,42,0.06)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_30px_80px_rgba(15,23,42,0.10)] md:p-8 ${service.span}`}
             >
               <div className="absolute right-0 top-0 h-36 w-36 rounded-bl-[44px] bg-white/40 blur-2xl transition-all duration-300 group-hover:scale-110" />
               <div className="absolute bottom-0 left-0 h-24 w-24 rounded-tr-[32px] bg-white/20 blur-xl" />

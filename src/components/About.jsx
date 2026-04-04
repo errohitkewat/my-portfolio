@@ -16,7 +16,7 @@ function About() {
               About
             </p>
 
-            <h2 className="mt-6 text-4xl font-extrabold leading-tight text-[#111827] md:text-5xl">
+            <h2 className="mt-6 text-4xl font-gilroy-medium font-extrabold  leading-tight text-[#111827] md:text-5xl">
               I design and build
               <span className="block text-black/40">
                 modern digital experiences
@@ -56,7 +56,7 @@ function About() {
           >
             <div className="rounded-[32px] border border-black/6 bg-white p-8 shadow-sm transition hover:-translate-y-1">
               <p className="text-sm text-black/45">Experience</p>
-              <p className="mt-2 text-3xl font-extrabold text-[#111827]">
+              <p className="mt-2 text-3xl font-gilroy-medium font-extrabold text-[#111827]">
                 10+ Projects
               </p>
               <p className="mt-3 text-sm text-black/55">

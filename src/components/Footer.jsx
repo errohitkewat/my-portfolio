@@ -13,10 +13,7 @@ function Footer() {
             <div className="grid gap-8 md:grid-cols-12 md:items-center">
               {/* left */}
               <div className="md:col-span-5">
-                <p
-                  style={{ fontFamily: "Gilroy-Medium" }}
-                  className="text-2xl font-extrabold tracking-tight text-[#111827]"
-                >
+                <p className="text-2xl font-gilroy-medium font-extrabold tracking-tight text-[#111827]">
                   Rohit Kewat
                 </p>
                 <p className="mt-2 max-w-sm text-sm leading-7 text-black/50">
@@ -40,7 +37,7 @@ function Footer() {
               {/* right */}
               <div className="md:col-span-3 md:text-right">
                 <a
-                  href="rohitkewat.er@gmail.com"
+                  href="mailto:rohitkewat.er@gmail.com"
                   className="group inline-flex items-center gap-2 rounded-full bg-[#111827] px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#4f46e5]"
                 >
                   Let’s work together
@@ -52,7 +49,7 @@ function Footer() {
             <div className="mt-8 flex flex-col gap-4 border-t border-black/6 pt-5 md:flex-row md:items-center md:justify-between">
               <div className="flex items-center gap-3">
                 <a
-                  href="mailto:yourmail@gmail.com"
+                  href="mailto:rohitkewat.er@gmail.com"
                   className="flex h-11 w-11 items-center justify-center rounded-2xl border border-black/8 bg-white text-[#111827] transition-all duration-300 hover:-translate-y-1 hover:bg-[#111827] hover:text-white"
                   aria-label="Email"
                 >
@@ -60,7 +57,7 @@ function Footer() {
                 </a>
 
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/errohitkewat"
                   target="_blank"
                   rel="noreferrer"
                   className="flex h-11 w-11 items-center justify-center rounded-2xl border border-black/8 bg-white text-[#111827] transition-all duration-300 hover:-translate-y-1 hover:bg-[#111827] hover:text-white"
@@ -70,7 +67,7 @@ function Footer() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/rohit-kewat-90b276347/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex h-11 w-11 items-center justify-center rounded-2xl border border-black/8 bg-white text-[#111827] transition-all duration-300 hover:-translate-y-1 hover:bg-[#111827] hover:text-white"

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=:wght@200..800&display=swap");
+
 @import "tailwindcss";
 
 html {
@@ -6,9 +6,7 @@ html {
 }
 
 body {
-  font-family: "Gilroy-Regular", sans-serif;
   background: #f6f7fb;
-  letter-spacing: 1px;
   color: #111827;
 }
 
@@ -18,13 +16,24 @@ body {
 }
 
 
-
 @font-face {
-  font-family: "Gilroy-Medium";
-  src: url("/gilroy-medium.ttf") format("opentype");
+  font-family: "Gilroy-Regular";
+  src: url("/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Gilroy-Regular";
-  src: url("/gilroy-regular.ttf") format("opentype");
+  font-family: "Gilroy-Medium";
+  src: url("/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-gilroy-regular {
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+.font-gilroy-medium {
+  font-family: "Gilroy-Medium", sans-serif;
 }

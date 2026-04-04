@@ -43,7 +43,7 @@ function Projects() {
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#4f46e5]">
               Projects
             </p>
-            <h2 className="mt-4 max-w-3xl text-3xl font-extrabold leading-tight text-[#111827] md:text-5xl">
+            <h2 className="mt-4 max-w-3xl font-gilroy-medium text-3xl font-extrabold leading-tight text-[#111827] md:text-5xl">
               Selected work and project concepts
             </h2>
           </div>

@@ -53,10 +53,7 @@ function Process() {
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#4f46e5]">
               Process
             </p>
-            <h2
-              style={{ fontFamily: "Gilroy-Medium" }}
-              className="mt-4 max-w-4xl text-3xl font-extrabold leading-tight text-[#111827] md:text-5xl"
-            >
+            <h2 className="mt-4 font-gilroy-medium max-w-4xl text-3xl font-extrabold leading-tight text-[#111827] md:text-5xl">
               A simple process
               <span className="block text-black/45">
                 to create a clean modern website
