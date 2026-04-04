@@ -67,6 +67,7 @@ function Hero() {
 
             <a
               href="/resume.pdf"
+              download="Rohit-Kewat-Resume.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-6 py-3.5 text-sm font-semibold text-[#111827] shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
             >
               Download Resume
