@@ -5,7 +5,7 @@ function Footer() {
     <footer className="px-6 pb-8 pt-6 md:px-10">
       <div className="mx-auto max-w-7xl">
         <div className="relative overflow-hidden rounded-[34px] border border-black/6 bg-white/80 shadow-[0_24px_70px_rgba(15,23,42,0.07)] backdrop-blur-xl">
-          <div className="absolute inset-0 bg-gradient-to-br from-white via-[#f8fafc] to-[#eef2ff]" />
+          <div className="absolute inset-0 bg-linear-to-br from-white via-[#f8fafc] to-[#eef2ff]" />
           <div className="absolute -left-10 top-0 h-32 w-32 rounded-full bg-[#6366f1]/10 blur-3xl" />
           <div className="absolute -right-10 bottom-0 h-32 w-32 rounded-full bg-[#06b6d4]/10 blur-3xl" />
 
@@ -24,7 +24,7 @@ function Footer() {
 
               {/* center */}
               <div className="md:col-span-4">
-                <div className="rounded-[24px] border border-black/6 bg-white/70 px-5 py-4 backdrop-blur">
+                <div className="rounded-3xl border border-black/6 bg-white/70 px-5 py-4 backdrop-blur">
                   <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#4f46e5]">
                     Available For
                   </p>

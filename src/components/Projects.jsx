@@ -68,7 +68,7 @@ function Projects() {
             >
               <div className="md:col-span-7">
                 <div
-                  className={`group relative flex h-[280px] items-end overflow-hidden rounded-[28px] bg-gradient-to-br ${project.gradient} p-6 md:h-[360px]`}
+                  className={`group relative flex h-70 items-end overflow-hidden rounded-[28px] bg-linear-to-br ${project.gradient} p-6 md:h-90`}
                 >
                   <img
                     src={project.image}
@@ -77,7 +77,7 @@ function Projects() {
                   />
 
                   <div
-                    className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-35`}
+                    className={`absolute inset-0 bg-linear-to-br ${project.gradient} opacity-35`}
                   />
 
                   <div className="absolute inset-0 bg-black/15" />

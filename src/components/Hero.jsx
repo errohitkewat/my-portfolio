@@ -9,8 +9,8 @@ function Hero() {
     >
       {/* soft background */}
       <div className="absolute inset-0 -z-20 bg-[#f8fafc]" />
-      <div className="absolute left-[-120px] top-20 -z-10 h-[320px] w-[320px] rounded-full bg-[#6366f1]/12 blur-3xl" />
-      <div className="absolute right-[-100px] bottom-10 -z-10 h-[280px] w-[280px] rounded-full bg-[#06b6d4]/10 blur-3xl" />
+      <div className="absolute -left-30 top-20 -z-10 h-80 w-[320px] rounded-full bg-[#6366f1]/12 blur-3xl" />
+      <div className="absolute -right-25 bottom-10 -z-10 h-70 w-70 rounded-full bg-[#06b6d4]/10 blur-3xl" />
 
       <div className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-12">
         {/* left content */}
@@ -102,7 +102,7 @@ function Hero() {
           transition={{ duration: 0.85, delay: 0.15 }}
           className="relative lg:col-span-5"
         >
-          <div className="relative rounded-[32px] border border-black/8 bg-white/70 p-4 shadow-[0_25px_80px_rgba(15,23,42,0.10)] backdrop-blur-xl">
+          <div className="relative rounded-4xl border border-black/8 bg-white/70 p-4 shadow-[0_25px_80px_rgba(15,23,42,0.10)] backdrop-blur-xl">
             <div className="rounded-[26px] border border-black/6 bg-[#ffffff] p-5">
               <div className="mb-5 flex items-center gap-2">
                 <span className="h-3 w-3 rounded-full bg-[#fb7185]" />
@@ -110,7 +110,7 @@ function Hero() {
                 <span className="h-3 w-3 rounded-full bg-[#34d399]" />
               </div>
 
-              <div className="rounded-[22px] bg-gradient-to-br from-[#eef2ff] via-[#f8fafc] to-[#ecfeff] p-6">
+              <div className="rounded-[22px] bg-linear-to-br from-[#eef2ff] via-[#f8fafc] to-[#ecfeff] p-6">
                 <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#4f46e5]">
                   Portfolio Preview
                 </p>
