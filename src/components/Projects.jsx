@@ -7,7 +7,7 @@ const projects = [
     type: "Service Website",
     description:
       "A modern booking-focused website with organized sections, pricing clarity, and strong presentation.",
-    gradient: "from-[#0000] via-[0000] to-[#0000]",
+    gradient: "from-[#0000] via-[#0000] to-[#0000]",
     badge: "bg-[#eff6ff] text-[#1d4ed8]",
     image: "/images/adventure.png",
     liveLink: "https://manali-adventure.netlify.app/",
@@ -70,27 +70,22 @@ function Projects() {
                 <div
                   className={`group relative flex h-[280px] items-end overflow-hidden rounded-[28px] bg-gradient-to-br ${project.gradient} p-6 md:h-[360px]`}
                 >
-                  {/* image */}
                   <img
                     src={project.image}
                     alt={project.title}
                     className="absolute inset-0 h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                   />
 
-                  {/* gradient overlay */}
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-35`}
                   />
 
-                  {/* dark overlay */}
                   <div className="absolute inset-0 bg-black/15" />
 
-                  {/* top badge */}
                   <div className="absolute right-6 top-6 rounded-full border border-white/70 bg-white/70 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-black/55 backdrop-blur">
                     Featured
                   </div>
 
-                  {/* bottom type */}
                   <div className="relative z-10">
                     <span
                       className={`inline-flex rounded-full px-4 py-2 text-xs font-bold uppercase tracking-[0.22em] ${project.badge}`}

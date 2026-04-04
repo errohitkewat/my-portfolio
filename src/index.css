@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=:wght@200..800&display=swap");
 @import "tailwindcss";
 
 html {
@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: "Gilroy-Regular";
+  font-family: "Gilroy-Regular", sans-serif;
   background: #f6f7fb;
   letter-spacing: 1px;
   color: #111827;
@@ -15,4 +15,16 @@ body {
 ::selection {
   background: #111827;
   color: #ffffff;
+}
+
+
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("/gilroy-medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("/gilroy-regular.ttf") format("opentype");
 }

@@ -4,8 +4,8 @@ import { FiArrowUpRight, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 const contactLinks = [
   {
     label: "Email",
-    value: "yourmail@gmail.com",
-    href: "mailto:yourmail@gmail.com",
+    value: "rohitkewat.er@gmail.com",
+    href: "rohitkewat.er@gmail.com",
   },
   {
     label: "LinkedIn",
@@ -70,7 +70,7 @@ function Contact() {
                 </div>
 
                 <a
-                  href="mailto:yourmail@gmail.com"
+                  href="rohitkewat.er@gmail.com"
                   className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#111827] px-5 py-3 text-sm font-semibold text-white shadow-[0_14px_30px_rgba(17,24,39,0.14)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#4f46e5]"
                 >
                   Start a Project
@@ -127,7 +127,7 @@ function Contact() {
                 </a>
 
                 <a
-                  href="https://github.com/yourusername"
+                  href="rohitkewat.er@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-[22px] border border-black/6 bg-white px-4 py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-sm"
@@ -167,7 +167,7 @@ function Contact() {
                   </div>
 
                   <a
-                    href="mailto:yourmail@gmail.com"
+                    href="rohitkewat.er@gmail.com"
                     className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-[#111827] transition-all duration-300 hover:-translate-y-1"
                   >
                     Send Message

@@ -31,8 +31,7 @@ function Hero() {
             initial={{ opacity: 0, y: 26 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.05 }}
-            style={{ fontFamily: "Gilroy-Medium" }}
-            className="max-w-4xl text-5xl font-extrabold  tracking-tight text-[#111827] sm:text-6xl lg:text-7xl"
+            className="max-w-4xl text-5xl font-extrabold font-gilroyMedium tracking-tight text-[#111827] sm:text-6xl lg:text-7xl"
           >
             I Create
             <span className="block">Modern Websites</span>

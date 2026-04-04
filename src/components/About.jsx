@@ -5,7 +5,6 @@ function About() {
     <section id="about" className="px-6 py-24 md:px-10">
       <div className="mx-auto max-w-7xl">
         <div className="grid items-center gap-12 lg:grid-cols-12">
-          {/* LEFT SIDE */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -17,10 +16,7 @@ function About() {
               About
             </p>
 
-            <h2
-              style={{ fontFamily: "Gilroy-Medium" }}
-              className="mt-6 text-4xl font-extrabold leading-tight text-[#111827] md:text-5xl"
-            >
+            <h2 className="mt-6 text-4xl font-extrabold leading-tight text-[#111827] md:text-5xl">
               I design and build
               <span className="block text-black/40">
                 modern digital experiences
@@ -51,7 +47,6 @@ function About() {
             </div>
           </motion.div>
 
-          {/* RIGHT SIDE */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}

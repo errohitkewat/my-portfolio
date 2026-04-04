@@ -20,7 +20,7 @@ function Footer() {
                   Rohit Kewat
                 </p>
                 <p className="mt-2 max-w-sm text-sm leading-7 text-black/50">
-                  Frontend developer building clean, modern, and professional
+                  Web developer building clean, modern, and professional
                   websites for brands, portfolios, and businesses.
                 </p>
               </div>
@@ -40,7 +40,7 @@ function Footer() {
               {/* right */}
               <div className="md:col-span-3 md:text-right">
                 <a
-                  href="mailto:yourmail@gmail.com"
+                  href="rohitkewat.er@gmail.com"
                   className="group inline-flex items-center gap-2 rounded-full bg-[#111827] px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#4f46e5]"
                 >
                   Let’s work together
