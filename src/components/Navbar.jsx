@@ -29,7 +29,7 @@ function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between  py-4 px-5 lg:px-0">
+      <div className="mx-auto flex max-w-7xl items-center justify-between md:px-9 py-4 px-5 lg:px-0">
         <a href="#home" className="group flex items-center gap-3">
           <div className="flex h-10 w-10 font-gilroy-medium items-center justify-center rounded-3xl bg-[#111827] text-md font-bold text-white shadow-[0_10px_30px_rgba(17,24,39,0.18)] transition-transform duration-300 group-hover:scale-105">
             R
@@ -95,7 +95,7 @@ function Navbar() {
                   key={link.name}
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="rounded-2xl px-4 py-3 text-sm font-semibold text-black/70 transition hover:bg-[#f3f4f6] hover:text-[#111827]"
+                  className="rounded-2xl px-4  text-md font-semibold text-black/70 transition hover:bg-[#f3f4f6] hover:text-[#111827]"
                 >
                   {link.name}
                 </a>

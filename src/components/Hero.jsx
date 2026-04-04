@@ -22,7 +22,7 @@ function Hero() {
             className="mb-6 inline-flex items-center gap-3 rounded-full border border-black/10 bg-white/80 px-4 py-2 shadow-sm backdrop-blur"
           >
             <span className="h-2.5 w-2.5 rounded-full bg-[#22c55e]" />
-            <span className="text-[11px] font-bold uppercase tracking-[0.22em] text-[#4f46e5]">
+            <span className="lg:text-[11px] md:text-[11px] text-[10px] font-bold uppercase tracking-[0.22em] text-[#4f46e5]">
               Available for freelance projects
             </span>
           </motion.div>
@@ -31,7 +31,7 @@ function Hero() {
             initial={{ opacity: 0, y: 26 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, delay: 0.05 }}
-            className="max-w-4xl  text-5xl font-gilroy-medium font-extrabold tracking-tight text-[#111827] sm:text-6xl lg:text-7xl"
+            className="max-w-4xl md:text-6xl   text-4xl font-gilroy-medium font-extrabold tracking-tight text-[#111827] sm:text-6xl lg:text-7xl"
           >
             I Create
             <span className="block">Modern Websites</span>

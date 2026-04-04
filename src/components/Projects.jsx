@@ -73,7 +73,7 @@ function Projects() {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="absolute inset-0 h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                    className="absolute inset-0 h-full w-full object-cover object-top-left lg:object-top  transition-transform duration-500 group-hover:scale-105"
                   />
 
                   <div
