@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Gilroy-Regular";
+  background: #f6f7fb;
+  letter-spacing: 1px;
+  color: #111827;
+}
+
+::selection {
+  background: #111827;
+  color: #ffffff;
+}
