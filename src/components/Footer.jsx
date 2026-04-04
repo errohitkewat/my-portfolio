@@ -1,4 +1,4 @@
-import { FiArrowUpRight, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
+import { FiArrowUpRight, FiGithub, FiInstagram, FiLinkedin, FiMail } from "react-icons/fi";
 
 function Footer() {
   return (
@@ -74,6 +74,15 @@ function Footer() {
                   aria-label="LinkedIn"
                 >
                   <FiLinkedin size={16} />
+                </a>
+                <a
+                  href="https://www.instagram.com/?hl=en"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex h-11 w-11 items-center justify-center rounded-2xl border border-black/8 bg-white text-[#111827] transition-all duration-300 hover:-translate-y-1 hover:bg-[#111827] hover:text-white"
+                  aria-label="Instagram"
+                >
+                  <FiInstagram size={16} />
                 </a>
               </div>
 
