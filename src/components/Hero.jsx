@@ -1,6 +1,41 @@
 import { motion } from "framer-motion";
 import { FiArrowRight, FiDownload } from "react-icons/fi";
 
+import { useEffect, useState } from "react";
+
+function Counter({ end, duration = 1000, suffix = "" }) {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    let startTime;
+    let frame;
+
+    const update = (time) => {
+      if (!startTime) startTime = time;
+
+      const progress = Math.min((time - startTime) / duration, 1);
+      setCount(Math.floor(progress * end));
+
+      if (progress < 1) {
+        frame = requestAnimationFrame(update);
+      }
+    };
+
+    frame = requestAnimationFrame(update);
+
+    return () => cancelAnimationFrame(frame);
+  }, [end, duration]);
+
+  return (
+    <>
+      {count}
+      {suffix}
+    </>
+  );
+}
+
+
+
 function Hero() {
   return (
     <section
@@ -82,7 +117,9 @@ function Hero() {
             className="mt-12 flex flex-wrap gap-8"
           >
             <div>
-              <p className="text-2xl font-extrabold text-[#111827]">10+</p>
+              <p className="text-2xl font-extrabold text-[#111827]">
+                <Counter end={10} suffix="+" />
+              </p>
               <p className="text-sm font-medium text-black/45">Projects</p>
             </div>
             <div>
@@ -90,7 +127,9 @@ function Hero() {
               <p className="text-sm font-medium text-black/45">UI Style</p>
             </div>
             <div>
-              <p className="text-2xl font-extrabold text-[#111827]">100%</p>
+              <p className="text-2xl font-extrabold text-[#111827]">
+                <Counter end={100} suffix="%" />
+              </p>
               <p className="text-sm font-medium text-black/45">Responsive</p>
             </div>
           </motion.div>
