@@ -17,20 +17,20 @@ const projects = [
     type: "Business Website",
     description:
       "A premium concept website with elegant layout, stylish typography, and clean visual hierarchy.",
-    gradient: "from-[#ede9fe] via-[#f5f3ff] to-[#ffffff]",
+    gradient: "from-[#0000] via-[#0000] to-[#0000]",
     badge: "bg-[#f5f3ff] text-[#6d28d9]",
-    image: "/images/project2.jpg",
-    liveLink: "https://your-cafe-site-link.com",
+    image: "/images/chocolate.png",
+    liveLink: "https://chocolate-webpage.netlify.app/",
   },
   {
     title: "Salon Portfolio Website",
     type: "Brand Website",
     description:
       "A polished service website created to improve trust, visual appeal, and user experience.",
-    gradient: "from-[#dcfce7] via-[#f0fdf4] to-[#ffffff]",
+    gradient: "from-[#0000] via-[#0000] to-[#0000]",
     badge: "bg-[#f0fdf4] text-[#15803d]",
-    image: "/images/project3.jpg",
-    liveLink: "https://your-salon-site-link.com",
+    image: "/images/salon.png",
+    liveLink: "https://salon-web-project.netlify.app/",
   },
 ];
 
