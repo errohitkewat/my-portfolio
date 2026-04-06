@@ -16,7 +16,7 @@ function Profile() {
               <img
                 src="/images/rohit.jpg"
                 alt="Rohit Kewat"
-                className="h-[420px] w-full object-cover"
+                className="h-105 w-full object-cover"
               />
             </div>
           </div>

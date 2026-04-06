@@ -16,11 +16,11 @@ const projects = [
     title: "Cafe Brand Website",
     type: "Business Website",
     description:
-      "A premium concept website with elegant layout, stylish typography, and clean visual hierarchy.",
+      "Modern café website showcasing premium coffee, cozy ambiance, fast snacks, smooth booking experience, and elegant design for a delightful customer journey.",
     gradient: "from-[#0000] via-[#0000] to-[#0000]",
     badge: "bg-[#f5f3ff] text-[#6d28d9]",
-    image: "/images/chocolate.png",
-    liveLink: "https://chocolate-webpage.netlify.app/",
+    image: "/images/cafe.png",
+    liveLink: "https://am-to-pm-cafe.netlify.app/",
   },
   {
     title: "Salon Portfolio Website",
