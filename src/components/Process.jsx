@@ -53,7 +53,7 @@ function Process() {
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#4f46e5]">
               Process
             </p>
-            <h2 className="mt-4 font-gilroy-medium max-w-4xl text-3xl font-extrabold leading-tight text-[#111827] md:text-5xl">
+            <h2 className="mt-4 font-gilroy-medium max-w-4xl text-3xl font-extrabold lg:leading-tight text-[#111827] md:text-5xl">
               A simple process
               <span className="block text-black/45">
                 to create a clean modern website
@@ -61,7 +61,7 @@ function Process() {
             </h2>
           </div>
 
-          <p className="max-w-md text-base leading-7 text-black/55">
+          <p className="max-w-md text-base lg:leading-7 text-black/55">
             I keep the workflow clear and smooth so the website feels well
             planned, professionally designed, and ready for real clients.
           </p>
@@ -105,7 +105,7 @@ function Process() {
                         {step.title}
                       </h3>
 
-                      <p className="mt-4 text-[15px] leading-7 text-black/60 md:text-base">
+                      <p className="mt-4 text-[15px] lg:leading-7 text-black/60 md:text-base">
                         {step.description}
                       </p>
 

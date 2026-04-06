@@ -16,20 +16,20 @@ function About() {
               About
             </p>
 
-            <h2 className="mt-6 text-4xl font-gilroy-medium font-extrabold  leading-tight text-[#111827] md:text-5xl">
+            <h2 className="mt-6 text-4xl font-gilroy-medium font-extrabold  lg:leading-tight text-[#111827] md:text-5xl">
               I design and build
               <span className="block text-black/40">
                 modern digital experiences
               </span>
             </h2>
 
-            <p className="mt-6 max-w-xl text-base leading-8 text-black/60 md:text-lg">
+            <p className="mt-6 max-w-xl text-base  lg:leading-8 text-black/60 md:text-lg">
               I focus on creating websites that are clean, visually balanced,
               and easy to use. My goal is to build websites that not only look
               good but also help businesses present themselves professionally.
             </p>
 
-            <p className="mt-4 max-w-xl text-base leading-8 text-black/60 md:text-lg">
+            <p className="mt-4 max-w-xl text-base lg:leading-8 text-black/60 md:text-lg">
               I pay attention to layout, spacing, typography, and user flow so
               the final result feels simple, modern, and premium.
             </p>

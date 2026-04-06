@@ -16,7 +16,7 @@ function Footer() {
                 <p className="text-2xl font-gilroy-medium font-extrabold tracking-tight text-[#111827]">
                   Rohit Kewat
                 </p>
-                <p className="mt-2 max-w-sm text-sm leading-7 text-black/50">
+                <p className="mt-2 max-w-sm text-base lg:leading-7 text-black/50">
                   Web developer building clean, modern, and professional
                   websites for brands, portfolios, and businesses.
                 </p>

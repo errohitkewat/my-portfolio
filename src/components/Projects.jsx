@@ -104,7 +104,7 @@ function Projects() {
                   <h3 className="mt-3 text-2xl font-extrabold text-[#111827] md:text-3xl">
                     {project.title}
                   </h3>
-                  <p className="mt-4 leading-7 text-black/60">
+                  <p className="mt-4 lg:leading-7 text-black/60">
                     {project.description}
                   </p>
                 </div>

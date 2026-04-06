@@ -46,12 +46,12 @@ function Contact() {
                   Contact
                 </p>
 
-                <h2 className="mt-4 font-gilroy-medium text-3xl font-extrabold leading-tight text-[#111827] md:text-4xl">
+                <h2 className="mt-4 font-gilroy-medium text-3xl font-extrabold lg:leading-tight text-[#111827] md:text-4xl">
                   Let’s build something
                   <span className="block text-black/40">clean and modern</span>
                 </h2>
 
-                <p className="mt-4 max-w-md text-sm leading-7 text-black/58 md:text-base">
+                <p className="mt-4 max-w-md  lg:leading-7 text-black/58 md:text-base">
                   Need a portfolio, business website, or landing page? Let’s
                   connect and create something that feels premium and
                   professional.

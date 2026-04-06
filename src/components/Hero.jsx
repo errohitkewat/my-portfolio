@@ -79,7 +79,7 @@ function Hero() {
             initial={{ opacity: 0, y: 26 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.12 }}
-            className="mt-6 max-w-2xl  text-base leading-7 text-black/60 md:text-lg"
+            className="mt-6 max-w-2xl lg:text-lg  text-base lg:leading-7 text-black/60 md:text-lg"
           >
             I design and develop portfolio websites, business websites, and
             landing pages with clean layout, smooth interaction, and a strong
