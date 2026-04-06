@@ -17,8 +17,8 @@ function Footer() {
                   Rohit Kewat
                 </p>
                 <p className="mt-2 max-w-sm text-base lg:leading-7 text-black/50">
-                  Web developer building clean, modern, and professional
-                  websites for brands, portfolios, and businesses.
+                  Web developer who builds clean, modern and professional
+                  websites for businesses and portfolios.
                 </p>
               </div>
 

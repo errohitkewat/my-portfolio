@@ -24,9 +24,9 @@ function About() {
             </h2>
 
             <p className="mt-6 max-w-xl text-base  lg:leading-8 text-black/60 md:text-lg">
-              I focus on creating websites that are clean, visually balanced,
-              and easy to use. My goal is to build websites that not only look
-              good but also help businesses present themselves professionally.
+              I focus on creating websites that are clean, simple and easy to
+              use. My goal is to build websites that not only look good but also
+              help businesses look professional.
             </p>
 
             <p className="mt-4 max-w-xl text-base lg:leading-8 text-black/60 md:text-lg">
